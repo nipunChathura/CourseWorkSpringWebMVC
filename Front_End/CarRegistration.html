@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Car registration</title>
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <link href="assests/frm/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        .jumbotron {
+            padding: 1rem;
+            margin-bottom: 1rem;
+        }
+        .float-right {
+            float: right!important;
+            position: relative;
+            top: -56px;
+        }
+    </style>
+
+</head>
+<body>
+<div class="container-fluid">
+    <div class="jumbotron">
+        <h1>Car Registration</h1>
+    </div>
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="html+css+bootstrap.html">Login Form</a></li>
+            <li aria-current="page" class="breadcrumb-item active">Car Registration</li>
+            <li class="breadcrumb-item"><a href="html+css+bootstrap.html">Customer Detailes</a></li>
+            <li class="breadcrumb-item"><a href="html+css+bootstrap.html">Driver Details</a></li>
+        </ol>
+    </nav>
+
+    <form id="formID">
+        <div class="form-row">
+            <div class="form-group col-md-2">
+                <label for="inputEmail4">Car Number</label>
+                <input class="form-control" id="inputEmail4" type="email">
+            </div>
+            <div class="form-group col-md-2">
+                <label for="inputEmail4">Number OF Passenger</label>
+                <input class="form-control" id="inputEmail4" type="email">
+            </div>
+            <div class="form-group col-md-2">
+                <label for="inputEmail4">Colour</label>
+                <input class="form-control" id="inputEmail4" type="email">
+            </div>
+            <div class="form-group col-md-4">
+                <label for="inputEmail4">Brand</label>
+                <input class="form-control" id="inputEmail4" type="email">
+            </div>
+            <div class="form-group col-md-2">
+                <label for="inputState">Type</label>
+                <select class="form-control" id="inputState">
+                    <option selected>Luxury</option>
+                    <option>Premium</option>
+                    <option>General</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-md-3">
+                <div class="custom-file">
+                    <input accept="image/*" class="custom-file-input" type="file">
+                    <label class="custom-file-label">Front Photo</label>
+                </div>
+            </div>
+            <div class="form-group col-md-3">
+                <div class="custom-file">
+                    <input accept="image/*" class="custom-file-input" type="file">
+                    <label class="custom-file-label">Back Photo</label>
+                </div>
+            </div>
+            <div class="form-group col-md-3">
+                <div class="custom-file">
+                    <input accept="image/*" class="custom-file-input" type="file">
+                    <label class="custom-file-label">Side Photo</label>
+                </div>
+            </div>
+            <div class="form-group col-md-3">
+                <div class="custom-file">
+                    <input accept="image/*" class="custom-file-input" type="file">
+                    <label class="custom-file-label">Interior Photo</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-md-2">
+                <label for="inputState">Transmisson Type</label>
+                <select class="form-control" id="inputState">
+                    <option selected>Manual</option>
+                    <option>Auto</option>
+                </select>
+            </div>
+            <div class="form-group col-md-2">
+                <label for="inputState">Fuel Type</label>
+                <select class="form-control" id="inputState">
+                    <option selected>Disal</option>
+                    <option>Petrol</option>
+                </select>
+            </div>
+            <div class="form-group col-md-2">
+                <label for="inputState">Bail Amount</label>
+                <select class="form-control" id="inputState">
+                    <option selected>10000</option>
+                    <option>15000</option>
+                    <option>20000</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-md-2">
+                <label for="inputEmail4">Daily rate</label>
+                <input class="form-control" id="inputEmail4" type="email">
+            </div>
+            <div class="form-group col-md-2">
+                <label for="inputEmail4">Free Km for a Day</label>
+                <input class="form-control" id="inputEmail4" type="email">
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-md-2">
+                <label for="inputEmail4">Monthly Rate</label>
+                <input class="form-control" id="inputEmail4" type="email">
+            </div>
+            <div class="form-group col-md-2">
+                <label for="inputEmail4">Free Km for a Month</label>
+                <input class="form-control" id="inputEmail4" type="email">
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-2">
+                <label for="inputEmail4">Price per Extra Km</label>
+                <input class="form-control" id="inputEmail4" type="email">
+            </div>
+        </div>
+
+        <div class="float-right">
+            <button class="btn btn-primary" type="button">Save</button>
+            <button class="btn btn-success" type="button">Update</button>
+            <button class="btn btn-danger" type="button">Delete</button>
+            <button class="btn btn-warning" type="button">Clear</button>
+        </div>
+
+        <div class="">
+            <table class="table table-sm">
+                <thead>
+                <tr>
+                    <th scope="col">Car Number</th>
+                    <th scope="col">Number OF Passenger</th>
+                    <th scope="col">Colour</th>
+                    <th scope="col">Brand</th>
+                    <th scope="col">Type</th>
+                    <th scope="col">Front Photo</th>
+                    <th scope="col">Back Photo</th>
+                    <th scope="col">Side Photo</th>
+                    <th scope="col">Interior Photo</th>
+                    <th scope="col">Transmisson Type</th>
+                    <th scope="col">Fuel Type</th>
+                    <th scope="col">Bail Amount</th>
+                    <th scope="col">Daily rate</th>
+                    <th scope="col">Free Km for a Day</th>
+                    <th scope="col">Monthly Rate</th>
+                    <th scope="col">Free Km for a Month</th>
+                    <th scope="col">Price per Extra Km</th>
+                </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+
+    </form>
+
+
+</div>
+
+
+<script src="assests/lib/jquery-3.5.1.min.js"></script>
+<script src="assests/frm/js/bootstrap.min.js"></script>
+
+<script>
+
+</script>
+</body>
+</html>
